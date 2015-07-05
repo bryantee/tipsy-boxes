@@ -85,3 +85,12 @@ button:hover {
   background-color: purple;
   color: white;
 }
+
+#low-score {
+  margin-top: 0;
+  visibility: hidden;
+}
+
+#game-status h1 {
+  margin-bottom: 0;
+}
