@@ -1,6 +1,15 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+p {
+  font-size: 1.1em;
 }
 
 .content {
@@ -41,14 +50,14 @@ body {
 
 #blue {
   color: blue;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
 
 }
 
 #green {
   color: green;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -69,4 +78,10 @@ button {
   font-size: 1.2em;
   font-weight: 500;
   margin: 1.5em;
+  transition: background-color 0.25s ease;
+}
+
+button:hover {
+  background-color: purple;
+  color: white;
 }
