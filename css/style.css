@@ -70,3 +70,8 @@ button {
   font-weight: 500;
   margin: 1.5em;
 }
+
+button:hover {
+  background-color: purple;
+  color: white;
+}
