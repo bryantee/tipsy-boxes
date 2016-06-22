@@ -57,6 +57,7 @@ var resetGame = function() {
 	});
 	$('#game-status h1').empty().append('Let\'s go again.');
 	generateRandNum();
+	count = 0;
 };
 
 var checkLowScore = function() {
